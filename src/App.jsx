@@ -15,7 +15,7 @@ const App = () => {
       Swal.fire({
         icon: 'success',
         title: 'ถอนเงินเสร็จสิ้น',
-        text: 'ทำการถอนเงินเสร็จส้น',
+        text: 'ทำการถอนเงินเสร็จสิ้น',
         confirmButtonText: 'ตกลง',
       });
     } else {
