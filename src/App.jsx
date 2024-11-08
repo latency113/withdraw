@@ -29,7 +29,7 @@ const App = () => {
   };
 
   const clickwithdraw = (amount) => {
-    setWithdrawAmount(amount);
+    setWithdrawAmount((prevAmount) => (prevAmount ? (parseInt(prevAmount) + amount).toString() : amount.toString()));
   };
 
   return (
