@@ -50,6 +50,7 @@ const App = () => {
               <input
                 type="number"
                 id="amount"
+                min="0"
                 value={withdrawAmount}
                 className='border p-2'
                 onChange={(e) => setWithdrawAmount(e.target.value)}
